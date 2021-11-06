@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "kkhFnUF8/KWh3MeplPlPoQ8Yr9YUXo//SCTM+v+cwEb1bUExBJN/27Ao/t0Iq08FIgafLblCT7jyrYekHMdfoQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\fligh\\source\\repos\\SlideshowWallpaperTest\\SlideshowWallpaperTest\\SlideshowWallpaperTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fligh\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\fligh\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "C:\\Users\\fligh\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\fligh\\.nuget\\packages\\system.drawing.common\\5.0.1\\system.drawing.common.5.0.1.nupkg.sha512",
+    "C:\\Users\\fligh\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\fligh\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\fligh\\.nuget\\packages\\vanara.core\\3.3.14\\vanara.core.3.3.14.nupkg.sha512",
+    "C:\\Users\\fligh\\.nuget\\packages\\vanara.pinvoke.comctl32\\3.3.14\\vanara.pinvoke.comctl32.3.3.14.nupkg.sha512",
+    "C:\\Users\\fligh\\.nuget\\packages\\vanara.pinvoke.cryptography\\3.3.14\\vanara.pinvoke.cryptography.3.3.14.nupkg.sha512",
+    "C:\\Users\\fligh\\.nuget\\packages\\vanara.pinvoke.gdi32\\3.3.14\\vanara.pinvoke.gdi32.3.3.14.nupkg.sha512",
+    "C:\\Users\\fligh\\.nuget\\packages\\vanara.pinvoke.kernel32\\3.3.14\\vanara.pinvoke.kernel32.3.3.14.nupkg.sha512",
+    "C:\\Users\\fligh\\.nuget\\packages\\vanara.pinvoke.ole\\3.3.14\\vanara.pinvoke.ole.3.3.14.nupkg.sha512",
+    "C:\\Users\\fligh\\.nuget\\packages\\vanara.pinvoke.rpc\\3.3.14\\vanara.pinvoke.rpc.3.3.14.nupkg.sha512",
+    "C:\\Users\\fligh\\.nuget\\packages\\vanara.pinvoke.security\\3.3.14\\vanara.pinvoke.security.3.3.14.nupkg.sha512",
+    "C:\\Users\\fligh\\.nuget\\packages\\vanara.pinvoke.shared\\3.3.14\\vanara.pinvoke.shared.3.3.14.nupkg.sha512",
+    "C:\\Users\\fligh\\.nuget\\packages\\vanara.pinvoke.shell32\\3.3.14\\vanara.pinvoke.shell32.3.3.14.nupkg.sha512",
+    "C:\\Users\\fligh\\.nuget\\packages\\vanara.pinvoke.shlwapi\\3.3.14\\vanara.pinvoke.shlwapi.3.3.14.nupkg.sha512",
+    "C:\\Users\\fligh\\.nuget\\packages\\vanara.pinvoke.user32\\3.3.14\\vanara.pinvoke.user32.3.3.14.nupkg.sha512"
+  ],
+  "logs": []
+}
