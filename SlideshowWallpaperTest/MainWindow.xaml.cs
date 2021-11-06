@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Runtime.InteropServices;
 using System.IO;
+using ModernWpf;
 
 namespace SlideshowWallpaperTest
 {
@@ -139,11 +140,11 @@ namespace SlideshowWallpaperTest
         private void ActionBtn_Click(object sender, RoutedEventArgs e)
         {
             //check if foldertextbox text is a valid directory and not empty, then set the desktop wallpaper as foldertextbox text
-            if (FolderTextBox.Text != "" && Directory.Exists(FolderTextBox.Text))
+            if (FolderTextBox.Text != "" && Directory.Exists(Environment.ExpandEnvironmentVariables(FolderTextBox.Text)))
             {
                 IShellItem pShellItem = null;
                 IShellItemArray pShellItemArray = null;
-                HRESULT hr = SHCreateItemFromParsingName(FolderTextBox.Text, IntPtr.Zero, typeof(IShellItem).GUID, out pShellItem);
+                HRESULT hr = SHCreateItemFromParsingName(Environment.ExpandEnvironmentVariables(FolderTextBox.Text), IntPtr.Zero, typeof(IShellItem).GUID, out pShellItem);
                 hr = SHCreateShellItemArrayFromShellItem(pShellItem, typeof(IShellItemArray).GUID, out pShellItemArray);
 
                 IDesktopWallpaper pDesktopWallpaper = (IDesktopWallpaper)(new DesktopWallpaperClass());

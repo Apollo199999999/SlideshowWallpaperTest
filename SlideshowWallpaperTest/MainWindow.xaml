@@ -6,11 +6,11 @@
         xmlns:local="clr-namespace:SlideshowWallpaperTest"
         xmlns:ui="http://schemas.modernwpf.com/2019"
         mc:Ignorable="d"
-        Title="SlideshowWallpaperTest" Height="342" Width="604" ResizeMode="NoResize" ui:WindowHelper.UseModernWindowStyle="True">
+        Title="SlideshowWallpaperTest" Height="342" Width="604" ResizeMode="NoResize" ui:WindowHelper.UseModernWindowStyle="True" SizeToContent="Manual">
     <Grid>
-        <Button x:Name="ActionBtn" Content="Set folder as slideshow wallpaper" HorizontalAlignment="Center" Margin="0,213,0,0" VerticalAlignment="Top" Click="ActionBtn_Click" Style="{StaticResource AccentButtonStyle}" Height="48" Width="310" FontSize="18"/>
-        <TextBox x:Name="FolderTextBox" HorizontalAlignment="Center"  TextWrapping="Wrap" VerticalAlignment="Top" Width="536" Height="52" FontSize="18" Margin="0,120,0,0" />
-        <Label x:Name="label" Content="Folder:" HorizontalAlignment="Left" Margin="34,86,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="22"/>
+        <Button x:Name="ActionBtn" Content="Set folder as slideshow wallpaper" HorizontalAlignment="Center" Margin="0,185,0,0" VerticalAlignment="Top" Click="ActionBtn_Click" Style="{StaticResource AccentButtonStyle}" Height="48" Width="310" FontSize="18"/>
+        <TextBox x:Name="FolderTextBox" HorizontalAlignment="Center"  TextWrapping="Wrap" VerticalAlignment="Top" Width="536" Height="42" FontSize="18" Margin="0,100,0,0" />
+        <Label x:Name="label" Content="Folder:" HorizontalAlignment="Left" Margin="34,66,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="22"/>
 
     </Grid>
 </Window>
