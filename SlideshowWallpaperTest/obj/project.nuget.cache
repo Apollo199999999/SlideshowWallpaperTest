@@ -1,27 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "kkhFnUF8/KWh3MeplPlPoQ8Yr9YUXo//SCTM+v+cwEb1bUExBJN/27Ao/t0Iq08FIgafLblCT7jyrYekHMdfoQ==",
+  "dgSpecHash": "PfLO4YSbDo0fRkhPnPC+BnfITlNNaFftyE9jIqaCSFXMfSqM2+jNK/0N2JDx4aL2Vg3jvjzoSpC18zQxciTadw==",
   "success": true,
   "projectFilePath": "C:\\Users\\fligh\\source\\repos\\SlideshowWallpaperTest\\SlideshowWallpaperTest\\SlideshowWallpaperTest.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\fligh\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
-    "C:\\Users\\fligh\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
-    "C:\\Users\\fligh\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
-    "C:\\Users\\fligh\\.nuget\\packages\\system.drawing.common\\5.0.1\\system.drawing.common.5.0.1.nupkg.sha512",
-    "C:\\Users\\fligh\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
-    "C:\\Users\\fligh\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
-    "C:\\Users\\fligh\\.nuget\\packages\\vanara.core\\3.3.14\\vanara.core.3.3.14.nupkg.sha512",
-    "C:\\Users\\fligh\\.nuget\\packages\\vanara.pinvoke.comctl32\\3.3.14\\vanara.pinvoke.comctl32.3.3.14.nupkg.sha512",
-    "C:\\Users\\fligh\\.nuget\\packages\\vanara.pinvoke.cryptography\\3.3.14\\vanara.pinvoke.cryptography.3.3.14.nupkg.sha512",
-    "C:\\Users\\fligh\\.nuget\\packages\\vanara.pinvoke.gdi32\\3.3.14\\vanara.pinvoke.gdi32.3.3.14.nupkg.sha512",
-    "C:\\Users\\fligh\\.nuget\\packages\\vanara.pinvoke.kernel32\\3.3.14\\vanara.pinvoke.kernel32.3.3.14.nupkg.sha512",
-    "C:\\Users\\fligh\\.nuget\\packages\\vanara.pinvoke.ole\\3.3.14\\vanara.pinvoke.ole.3.3.14.nupkg.sha512",
-    "C:\\Users\\fligh\\.nuget\\packages\\vanara.pinvoke.rpc\\3.3.14\\vanara.pinvoke.rpc.3.3.14.nupkg.sha512",
-    "C:\\Users\\fligh\\.nuget\\packages\\vanara.pinvoke.security\\3.3.14\\vanara.pinvoke.security.3.3.14.nupkg.sha512",
-    "C:\\Users\\fligh\\.nuget\\packages\\vanara.pinvoke.shared\\3.3.14\\vanara.pinvoke.shared.3.3.14.nupkg.sha512",
-    "C:\\Users\\fligh\\.nuget\\packages\\vanara.pinvoke.shell32\\3.3.14\\vanara.pinvoke.shell32.3.3.14.nupkg.sha512",
-    "C:\\Users\\fligh\\.nuget\\packages\\vanara.pinvoke.shlwapi\\3.3.14\\vanara.pinvoke.shlwapi.3.3.14.nupkg.sha512",
-    "C:\\Users\\fligh\\.nuget\\packages\\vanara.pinvoke.user32\\3.3.14\\vanara.pinvoke.user32.3.3.14.nupkg.sha512"
+    "C:\\Users\\fligh\\.nuget\\packages\\microsoft.netcore.platforms\\3.0.0\\microsoft.netcore.platforms.3.0.0.nupkg.sha512",
+    "C:\\Users\\fligh\\.nuget\\packages\\microsoft.windows.sdk.contracts\\10.0.18362.2005\\microsoft.windows.sdk.contracts.10.0.18362.2005.nupkg.sha512",
+    "C:\\Users\\fligh\\.nuget\\packages\\modernwpf.messagebox\\0.5.1\\modernwpf.messagebox.0.5.1.nupkg.sha512",
+    "C:\\Users\\fligh\\.nuget\\packages\\modernwpfui\\0.9.4\\modernwpfui.0.9.4.nupkg.sha512",
+    "C:\\Users\\fligh\\.nuget\\packages\\system.runtime.windowsruntime\\4.6.0\\system.runtime.windowsruntime.4.6.0.nupkg.sha512",
+    "C:\\Users\\fligh\\.nuget\\packages\\system.runtime.windowsruntime.ui.xaml\\4.6.0\\system.runtime.windowsruntime.ui.xaml.4.6.0.nupkg.sha512"
   ],
   "logs": []
 }

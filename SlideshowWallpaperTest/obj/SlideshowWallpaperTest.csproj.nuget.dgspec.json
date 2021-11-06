@@ -46,9 +46,13 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
-            "Vanara.PInvoke.Shell32": {
+            "ModernWpf.MessageBox": {
               "target": "Package",
-              "version": "[3.3.14, )"
+              "version": "[0.5.1, )"
+            },
+            "ModernWpfUI": {
+              "target": "Package",
+              "version": "[0.9.4, )"
             }
           },
           "imports": [

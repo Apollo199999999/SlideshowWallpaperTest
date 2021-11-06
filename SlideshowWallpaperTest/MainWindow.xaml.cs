@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Runtime.InteropServices;
-
+using System.IO;
 
 namespace SlideshowWallpaperTest
 {
@@ -22,6 +22,7 @@ namespace SlideshowWallpaperTest
     /// </summary>
     public partial class MainWindow : Window
     {
+        //functions required to set the desktop wallpaper as a slide show from a file path
         public enum HRESULT : int
         {
             S_OK = 0,
@@ -137,14 +138,22 @@ namespace SlideshowWallpaperTest
        
         private void ActionBtn_Click(object sender, RoutedEventArgs e)
         {
+            //check if foldertextbox text is a valid directory and not empty, then set the desktop wallpaper as foldertextbox text
+            if (FolderTextBox.Text != "" && Directory.Exists(FolderTextBox.Text))
+            {
+                IShellItem pShellItem = null;
+                IShellItemArray pShellItemArray = null;
+                HRESULT hr = SHCreateItemFromParsingName(FolderTextBox.Text, IntPtr.Zero, typeof(IShellItem).GUID, out pShellItem);
+                hr = SHCreateShellItemArrayFromShellItem(pShellItem, typeof(IShellItemArray).GUID, out pShellItemArray);
 
-            IShellItem pShellItem = null;
-            IShellItemArray pShellItemArray = null;
-            HRESULT hr = SHCreateItemFromParsingName(@"C:\Users\fligh\Pictures\Screenshots", IntPtr.Zero, typeof(IShellItem).GUID, out pShellItem);
-            hr = SHCreateShellItemArrayFromShellItem(pShellItem, typeof(IShellItemArray).GUID, out pShellItemArray);
-
-            IDesktopWallpaper pDesktopWallpaper = (IDesktopWallpaper)(new DesktopWallpaperClass());
-            pDesktopWallpaper.SetSlideshow(pShellItemArray);
+                IDesktopWallpaper pDesktopWallpaper = (IDesktopWallpaper)(new DesktopWallpaperClass());
+                pDesktopWallpaper.SetSlideshow(pShellItemArray);
+            }
+            else
+            {
+                //show an error message saying that the directory is invalid
+                ModernWpf.MessageBox.Show("The diretory that you have entered is invalid", "Error", MessageBoxButton.OK);
+            }
 
 
         }

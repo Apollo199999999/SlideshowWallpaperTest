@@ -4,10 +4,13 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SlideshowWallpaperTest"
+        xmlns:ui="http://schemas.modernwpf.com/2019"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="SlideshowWallpaperTest" Height="342" Width="604" ResizeMode="NoResize" ui:WindowHelper.UseModernWindowStyle="True">
     <Grid>
-        <Button x:Name="ActionBtn" Content="Set folder as slideshow wallpaper" HorizontalAlignment="Left" Margin="288,217,0,0" VerticalAlignment="Top" Click="ActionBtn_Click"/>
+        <Button x:Name="ActionBtn" Content="Set folder as slideshow wallpaper" HorizontalAlignment="Center" Margin="0,213,0,0" VerticalAlignment="Top" Click="ActionBtn_Click" Style="{StaticResource AccentButtonStyle}" Height="48" Width="310" FontSize="18"/>
+        <TextBox x:Name="FolderTextBox" HorizontalAlignment="Center"  TextWrapping="Wrap" VerticalAlignment="Top" Width="536" Height="52" FontSize="18" Margin="0,120,0,0" />
+        <Label x:Name="label" Content="Folder:" HorizontalAlignment="Left" Margin="34,86,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="22"/>
 
     </Grid>
 </Window>
